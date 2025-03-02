@@ -63,16 +63,20 @@
       font-size: 20px;
       font-weight: 400;
       text-transform: uppercase;
-      animation: creeping-line 12s linear infinite;
+      animation: creeping-line 10s linear infinite;
+
+      p {
+        margin-block: 0;
+      }
     }
   }
 }
 
 @keyframes creeping-line {
   0% {
-    transform: translateX(50%);
+    transform: translateX(100%);
   }
   100% {
-    transform: translateX(-70%);
+    transform: translateX(-50%);
   }
 }
