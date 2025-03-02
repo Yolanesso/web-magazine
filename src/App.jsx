@@ -1,7 +1,12 @@
 import React from 'react';
+import '../scss/normalize.scss';
+import 'macro-css';
+import Header from '../components/Header';
 
 export default function App() {
-  return <header className="header">
-    
-  </header>;
+  return (
+    <div className="wrapper">
+      <Header />
+    </div>
+  );
 }
