@@ -1,0 +1,37 @@
+.news-card {
+  padding: 48px 0;
+  border-bottom: 1px solid black;
+  font-family: 'General Sans', sans-serif;
+
+  max-width: 1055px;
+  &-img {
+    margin-right: 48px;
+  }
+
+  &__title {
+    font-size: 32px;
+  }
+
+  &__label {
+    margin-top: 76px;
+
+    span {
+      font-weight: 600;
+      margin-right: 8px;
+      font-size: 14px;
+    }
+    &-btn {
+      padding: 8px 12px;
+      border-radius: 100px;
+      border: 1px solid #000000;
+      background-color: transparent;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 12px;
+    }
+
+    &-text {
+      font-size: 14px;
+    }
+  }
+}
