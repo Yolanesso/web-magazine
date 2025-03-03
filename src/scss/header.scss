@@ -1,4 +1,5 @@
 .wrapper {
+  font-family: 'General Sans', sans-serif;
   padding: 2rem 220px;
 }
 
@@ -29,7 +30,6 @@
 
     &-title {
       color: white;
-      font-family: 'General Sans', sans-serif;
       font-weight: 700;
       font-size: 24px;
       text-transform: uppercase;
@@ -58,7 +58,6 @@
       white-space: nowrap;
       gap: 50px;
       min-width: 170%;
-      font-family: 'General Sans', sans-serif;
       color: #fff;
       font-size: 20px;
       font-weight: 400;

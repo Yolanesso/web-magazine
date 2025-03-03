@@ -13,7 +13,7 @@ export default function LastNews() {
             incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem.
             Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.
           </p>
-          <div className="last-news__label d-flex justify-between">
+          <div className="last-news__label d-flex justify-between ">
             <p className="last-news__label-text">
               <span>Text</span> Jakob Gronberg
             </p>
