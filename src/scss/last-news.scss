@@ -1,0 +1,46 @@
+.last-news {
+  font-family: 'General Sans', sans-serif;
+
+  &__wrapper {
+    margin-top: 70px;
+  }
+
+  &__info {
+    height: 200px;
+  }
+  &__title {
+    font-size: 104px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 100%;
+    line-height: 114px;
+    margin-right: 48px;
+  }
+  &__text {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  &__label {
+    font-size: 14px;
+    font-weight: 400;
+    align-items: center;
+    margin-top: 70px;
+    column-gap: 24px;
+    span {
+      font-weight: 600;
+      margin-right: 8px;
+    }
+    &-btn {
+      padding: 8px 12px;
+      border-radius: 100px;
+      border: 1px solid #000000;
+      background-color: transparent;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 12px;
+    }
+  }
+  &__img {
+    margin-top: 48px;
+  }
+}
